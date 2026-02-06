@@ -1,5 +1,5 @@
-import { createServer } from "http";
-import directus from "../directus";
+import { createServer } from 'http';
+import directus from '../directus';
 
 const server = createServer(directus);
 
